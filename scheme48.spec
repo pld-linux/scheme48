@@ -1,4 +1,5 @@
 Summary:	Implementation of Scheme
+Summary(pl):	Implementacja Scheme
 Name:		scheme48
 Version:	1.1
 Release:	2
@@ -16,6 +17,12 @@ Scheme 48 is an implementation of Scheme written by Richard Kelsey and
 Jonathan Rees. It is based on a byte-code interpreter and is designed
 to be used as a testbed for experiments in implementation techniques
 and as an expository tool.
+
+%description -l pl
+Scheme 48 to implementacja Scheme napisana przez Richarda Kelseya i
+Jonathana Reesa. Jest oparta na interpreterze byte-codu i zosta³a
+zaprojektowana z my¶l± o wykorzystaniu do eksperymentów w technikach
+implementacji i jako narzêdzie demonstracyjne.
 
 %prep
 %setup -q
