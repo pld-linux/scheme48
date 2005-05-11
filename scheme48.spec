@@ -9,7 +9,8 @@ Source0:	http://s48.org/%{version}/%{name}-%{version}.tgz
 # Source0-md5:	43507090660f0635e14764a72c5f7b08
 URL:		http://s48.org/
 BuildRequires:	elfutils-devel
-ExcludeArch:	alpha amd64 ia64 ppc64 s390x sparc64
+BuildRequires:	rpmbuild(macros) >= 1.213
+ExcludeArch:	%{x8664} alpha ia64 ppc64 s390x sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
