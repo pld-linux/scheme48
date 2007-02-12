@@ -1,5 +1,5 @@
 Summary:	Implementation of Scheme
-Summary(pl.UTF-8):   Implementacja Scheme
+Summary(pl.UTF-8):	Implementacja Scheme
 Name:		scheme48
 Version:	1.1
 Release:	2
